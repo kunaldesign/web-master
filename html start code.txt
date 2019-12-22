@@ -2,7 +2,7 @@
 <html>
     <meta>
     <head>
-        <title>template</title>
+        <title></title>
         <link rel="stylesheet" type="text/css" href="">
         <script></script>
         <style></style>
