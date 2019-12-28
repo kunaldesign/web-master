@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>checkbox</title>
+    <link rel="stylesheet" href="checkbox 3.css" />
+  </head>
+  <body>
+    <div class="checkbox">
+      <div class="inner">
+        <div class="toggle"></div>
+      </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        $(".toggle").click(function() {
+          $(".inner").toggleClass("active");
+        });
+      });
+    </script>
+  </body>
+</html>
